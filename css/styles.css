@@ -1,0 +1,107 @@
+.container {
+    width: 100%; /* O 'max-width: 100%;' si es necesario */
+    margin: 0 auto; /* Para centrar el contenido */
+}
+
+body {
+    padding-top: 56px; /* Para que el contenido no quede detrás del navbar */
+}
+footer {
+    background-color: #11536f;
+    width: 100%;
+    position: relative; /* o fixed, dependiendo de tu diseño */
+    left: 0;
+    right: 0;
+}
+
+.navbar {
+    background-color: #11536f;
+}
+.navbar .nav-link {
+    color: rgb(230, 229, 229); /* Hace que los enlaces sean blancos */
+}
+.navbar .navbar-toggler-icon {
+    background-color: #fff7f4; /* Cambia a un color visible según tu diseño */
+}
+
+.navbar .nav-link:hover {
+    color: #cccccc; /* Cambia el color al pasar el ratón */
+}
+
+.navbar-nav .nav-link {
+    font-weight: 600; /* Aplica negrita a los enlaces */
+}
+
+.navbar-brand img {
+    height: 40px; /* Tamaño grande */
+    transition: height 0.3s; /* Transición suave */
+}
+
+.navbar.scrolled .navbar-brand img {
+    height: 30px; /* Tamaño pequeño al hacer scroll */
+}
+
+header {
+    background: linear-gradient(45deg, #007bff, #196ec9);
+}
+
+.card-hover {
+    transition: transform 0.3s ease-in-out; /* Suave transición al hacer hover */
+}
+
+.card-hover:hover {
+    transform: scale(1.05); /* Efecto de agrandamiento suave */
+}
+
+.card-icon {
+    font-size: 3rem; /* Tamaño del ícono */
+    color: #dc3545; /* Color del ícono (rojo, como el color de 'DLP') */
+}
+
+.card-body {
+    text-align: center; /* Alineación centrada para el contenido de las cards */
+}
+
+h3 {
+    color: #464c53;
+    font-weight: bold;
+}
+.user-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #f8f9fa;
+    transition: box-shadow 0.3s;
+}
+
+.user-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modal-body {
+    font-size: 1.2em;
+}
+
+
+.logo-container {
+    display: flex; /* Utiliza flexbox para alinear las imágenes en línea */
+    justify-content: center; /* Centra las imágenes horizontalmente */
+}
+
+footer {
+    width: 100%;
+    position: relative; /* Asegura que el footer se comporte correctamente en el flujo del documento */
+}
+
+.footer-logo {
+    width: 100px; /* Establece el ancho de las imágenes */
+    height: auto; /* Mantiene la proporción de las imágenes */
+    margin: 0 5px; /* Espacio entre las imágenes */
+}
+
+@media (min-width: 576px) {
+    .user-card {
+        flex: 1 0 calc(25% - 20px); /* Cuatro columnas en resoluciones grandes */
+    }
+}

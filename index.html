@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Plataforma de registro de trabajadores de la empresa constructora DHL">
+    <title>Gestión de Personal - DLP</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/11021/11021317.png" type="image/x-icon">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top ">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="/asset/logo-dlp.svg" alt="Logo de la Empresa"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#registration">REGISTRO DE PERSONAL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#userList">LISTADO DE TRABAJADORES</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-primary text-white text-center py-4">
+        <div class="container">
+            <h2 class="display-5">PLATAFORMA DE REGISTRO DE PERSONAL</h2>
+        </div>
+    </header>
+    
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h3 class="text-center mb-5">BIENVENIDOS</h3>
+            <p class="text-center mb-5">En <strong>DLP</strong>, hemos desarrollado esta plataforma para facilitar y optimizar la gestión del personal en nuestra constructora. Esta herramienta busca centralizar la información de cada trabajador, asegurando un entorno de trabajo seguro y productivo.</p>
+            <p class="text-center mb-4">A continuación, algunas de nuestras funcionalidades clave:</p>
+    
+            <div class="row text-left">
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm card-hover">
+                        <div class="card-body text-center">
+                            <i class="bi bi-person-badge-fill card-icon"></i> <!-- Ícono agregado -->
+                            <h5 class="card-title mt-3">Registro de Datos Personales</h5>
+                            <p class="card-text">Captura información clave como nombre, correo, cargo y fecha de ingreso, asegurando registros actualizados.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm card-hover">
+                        <div class="card-body text-center">
+                            <i class="bi bi-people-fill card-icon"></i> <!-- Ícono agregado -->
+                            <h5 class="card-title mt-3">Gestión de Usuarios</h5>
+                            <p class="card-text">Permite eliminación de registros de personal, facilitando la administración de recursos humanos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm card-hover">
+                        <div class="card-body text-center">
+                            <i class="bi bi-shield-lock-fill card-icon"></i> <!-- Ícono agregado -->
+                            <h5 class="card-title mt-3">Validaciones y Seguridad</h5>
+                            <p class="card-text">Incluye controles para asegurar que la información ingresada sea precisa, garantizando la calidad de los datos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row text-left">
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm card-hover">
+                        <div class="card-body text-center">
+                            <i class="bi bi-ui-checks-grid card-icon"></i> <!-- Ícono agregado -->
+                            <h5 class="card-title mt-3">Usabilidad</h5>
+                            <p class="card-text">Con un diseño intuitivo, la plataforma es fácil de usar, permitiendo un acceso rápido a la información necesaria.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm card-hover">
+                        <div class="card-body text-center">
+                            <i class="bi bi-phone-fill card-icon"></i> <!-- Ícono agregado -->
+                            <h5 class="card-title mt-3">Diseño responsivo</h5>
+                            <p class="card-text">Diseño adaptable, asegurando una experiencia fluida y facilitando el registro del personal en cualquier dispositivo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm card-hover">
+                        <div class="card-body text-center">
+                            <i class="bi bi-headset card-icon"></i> <!-- Ícono agregado -->
+                            <h5 class="card-title mt-3">Soporte y Capacitación</h5>
+                            <p class="card-text">Brindamos asistencia técnica y formación continua para garantizar el correcto uso de la plataforma y maximizar su potencial.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <p class="text-center mt-4">Con esta plataforma, <strong>DLP</strong> reafirma su compromiso con la eficiencia operativa y la mejora continua, asegurando que cada trabajador cuente con la atención y los recursos necesarios para desarrollar su labor en un ambiente óptimo.</p>
+        </div>
+    </section>
+    
+    
+    
+
+    <div class="container my-5" id="registration">
+        <h2>Registro de Personal</h2>
+        <form id="userForm">
+            <div id="formErrors" class="text-danger mb-3"></div>
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="name">Nombre</label>
+                    <input type="text" class="form-control" id="name" placeholder="Juan" required>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="surname">Apellido</label>
+                    <input type="text" class="form-control" id="surname" placeholder="Perez" required>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="birth-date">Fecha de Nacimiento</label>
+                    <input type="date" class="form-control" id="birth-date" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="email" placeholder="juanperez@correo.cl" required>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="position">Cargo</label>
+                    <select id="position" class="form-control" required>
+                        <option value="" disabled selected>Seleccionar...</option>
+                        <option value="Obrero">Obrero</option>
+                        <option value="Supervisor">Supervisor</option>
+                        <option value="Gerente">Gerente</option>
+                        <option value="Ingeniero">Ingeniero</option>
+                        <option value="Administrativo">Administrativo</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="entry-date">Fecha de Ingreso</label>
+                    <input type="date" class="form-control" id="entry-date" required>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Agregar trabajador</button>
+        </form>
+    </div>
+
+    <div class="container" id="userList">
+        <h2>Listado de Trabajadores</h2>
+         <!-- Mensaje que se mostrará cuando no haya trabajadores -->
+    <p id="noUsersMessage">No hay trabajadores agregados. Cuando se agreguen, aparecerán aquí.</p>
+    <div class="row" id="users">
+        <div class="row" id="userss">
+            <!-- User cards  -->
+        </div>
+    </div>
+
+    <!-- Modal de Confirmación -->
+    <div class="modal fade" id="confirmationModal" tabindex="-1" role="dialog" aria-labelledby="confirmationModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="confirmationModalLabel">Confirmar Agregar Usuario</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p id="modalUserDetails"></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary" id="confirmAddUser">Confirmar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class=" text-white text-center py-3">
+                <div>
+                    <p>&copy; 2024 DLP. Todos los derechos reservados.</p>
+                </div>
+                <div class="logo-container py-2 col">
+                    <img src="/asset/logo_color-01.png" alt="Logo de la Empresa" class="footer-logo">
+                    <img src="/asset/logo_empresas.png" alt="Logo de la Empresa" class="footer-logo">
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="/js/scripts.js"></script>
+</body>
+</html>
